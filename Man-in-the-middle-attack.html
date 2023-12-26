@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="E-Portfolio for IoT &amp;amp; Cybersecurity">
+    <meta name="description" content="">
+    <title>Man-in-the-middle attack</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Man-in-the-middle-attack.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.1.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#89b2d8">
+    <meta property="og:title" content="Man-in-the-middle attack">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-overlap u-overlap-contrast u-overlap-transparent u-xl-mode" data-lang="ru"><header class="u-align-center-xs u-clearfix u-header u-sticky u-sticky-3e7e u-header" id="sec-75b6"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-align-left u-menu u-menu-one-level u-nav-spacing-25 u-offcanvas u-menu-1" data-responsive-from="LG">
+          <div class="menu-collapse u-custom-font u-font-roboto" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
+            <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
+              <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7b92"></use></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-7b92" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content"><g><rect y="36" width="302" height="30"></rect><rect y="236" width="302" height="30"></rect><rect y="136" width="302" height="30"></rect>
+</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-font-roboto u-nav u-spacing-20 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-2-base u-text-white" href="Home.html" style="padding: 10px;">Home</a>
+</li><li class="u-nav-item"><a class="u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-2-base u-text-white" href="AboutMe.html" style="padding: 10px;">About ME</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="AboutMe.html">About ME</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-align-center u-clearfix u-container-align-center-sm u-container-align-center-xs u-container-align-left-xxl u-image u-shading u-section-1" id="sec-32bc" data-image-width="1280" data-image-height="1280">
+      <h1 class="u-align-center u-text u-text-palette-3-base u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="0"> Man-in-the-middle attack</h1>
+      <p class="u-align-left u-custom-font u-font-montserrat u-large-text u-text u-text-variant u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250">Man-in-the-Middle (MITM) attacks are well known attacks which are launched on different
+assets of enterprise. The term Man-in-the-middle is derived from a volleyball scenario, where
+a player from Team 1 snatches the ball when it is tossed and shared between two players of
+Team 2 (Nayak and Samaddar 2010). The same concept is derived in enterprise where an
+illegal node or attacker launches an attack in between when two departments of an enterprise
+share information between themselves or with the customer. The attacker launches MITM in
+two modes (Kemmerer 2018):&nbsp;<br>
+        <br>1. Passive mode: In this mode, the attacker listens to the communication and captures
+the information without modifying the content.&nbsp;<br>2. Active mode: In this mode, the attacker actively listens to the communication
+channel, captures the information and changes the content deliberately.<br>
+        <br>
+        <br>
+      </p>
+      <img class="u-expanded-width u-image u-image-contain u-image-default u-image-1" src="images/image19.png" alt="" data-image-width="1563" data-image-height="950" data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X">
+      <p class="u-align-left u-custom-font u-font-montserrat u-text u-text-3" data-animation-name="customAnimationIn" data-animation-duration="1000">MITM is one of the severe attacks in enterprise networks as the attacker has the ability to
+perform the following actions.&nbsp;<br>
+        <br>1. Listens to the communication between two departments or two users.&nbsp;<br>2. Can inject bogus messages in the network when two departments are communicating.&nbsp;<br>3. Can modify and change the critical messages when two users are communicating.&nbsp;<br>4. Can delete the sensitive messages.&nbsp;<br>
+        <br>To tackle MITM attacks, the following techniques are desired, so that the attacker cannot
+launch an MITM attack on the organization.&nbsp;<br>
+        <br>1. The shared information between two users or departments must have a strong
+encryption.&nbsp;<br>2. Users must use TLS certificates when making communication with the outer world.
+      </p>
+      <img class="u-image u-image-default u-image-2" src="images/image21.png" alt="" data-image-width="1615" data-image-height="1017">
+      <p class="u-align-left u-custom-font u-font-montserrat u-text u-text-4">In the first video it shows the details and basically steps of the attack and implements it using a third-party application. A man-in-the-middle (MITM) attack is a type of cyber-attack where an attacker intercepts communication between two parties and can manipulate or view the data being transmitted. Here are the steps that an attacker might follow to perform a MITM attack:&nbsp;<br>
+        <br>1.	The attacker first needs to find a way to intercept the communication between the two parties. This can be done through various methods such as using a rogue access point, ARP spoofing, or DNS spoofing.&nbsp;<br>2.	Once the attacker has intercepted the communication, they can start manipulating or viewing the data being transmitted. For example, the attacker might alter messages being sent between the two parties, or they might simply listen in on the conversation to gather sensitive information.&nbsp;<br>3.	The attacker can then continue to intercept and manipulate the communication until they are satisfied with the amount of information they have gathered or the damage they have caused.&nbsp;<br>4.	The attacker may also choose to relay the communication between the two parties, pretending to be one of the parties to remain undetected.<br>5. Eventually, the attacker may decide to end the
+attack and stop intercepting the communication. They might do this either
+because they have achieved their goal or because they have been detected and
+are trying to cover their tracks.<br>
+        <br>It is important to note that MITM attacks can be
+difficult to detect, as communication between the two parties may appear normal
+and no errors may be reported. Therefore, it is important to take steps to
+protect against these types of attacks, such as using encryption and secure
+protocols.&nbsp;<!--[if !vml]--><!--[endif]-->
+        <br>
+        <br>In the second video,
+the scenario was simpler and more usual than the first one. It gave real world
+examples such as a hacker who brings his laptop to café and creates a bait
+Wi-Fi to let other customers connect to internet via himself. When customers
+hit their credentials on any website using hacker’s Wi-Fi, hackers can see
+their credentials because of Network sniffing tool.<br>
+      </p>
+      <img class="u-image u-image-contain u-image-default u-image-3" src="images/image20.png" alt="" data-image-width="1607" data-image-height="995">
+      <p class="u-align-left u-custom-font u-font-montserrat u-text u-text-5">Operation of man-in-the-middle attacks in the context of enterprise networks:<br>
+        <br>
+        <span style="font-size: 1.25rem;">
+          <span style="font-weight: 400;">In the context of an
+enterprise network, an MITM attack could be carried out by an employee who has
+access to the network, or by an outsider who has gained access to the network
+through, for example, a phishing attack or by exploiting a vulnerability in the
+network.</span>&nbsp;
+        </span>
+        <span style="font-weight: 400;">
+          <br>
+          <span style="font-size: 1.25rem;">&nbsp;&nbsp;</span>
+          <br>
+          <span style="font-size: 1.25rem;">Once the attacker has
+positioned themselves in the middle of the communication, they can potentially
+read, alter, or block the communication as they see fit. For example, an
+attacker could intercept and alter an email being sent from one employee to
+another, or they could intercept and read sensitive information being
+transmitted between systems on the network.
+&nbsp;&nbsp;</span>
+          <br>
+          <br>
+        </span>
+        <span style="font-size: 1.25rem;">
+          <span style="font-weight: 400;">To protect against MITM
+attacks, it is important for organizations to use secure communication
+protocols, such as SSL/TLS, and to use strong authentication methods to verify
+the identity of parties involved in a communication. It is also important to
+regularly update and patch systems and to educate employees on how to recognize
+and avoid phishing attacks.</span>
+          <br>
+          <br>
+          <br>
+          <span style="font-size: 1.5rem;">References:</span>
+          <br>
+          <br>
+          <span style="font-weight: 400;">https://www.xcitium.com/man-in-the-middle-mitm-attack/</span>
+          <br>
+          <span style="font-weight: 400;">https://lms23-24fall.emu.edu.tr/pluginfile.php/181885/mod_resource/content/1/Attacks%20on%20Enterprise%20Networks.pdf</span>
+          <br>
+          <span style="font-weight: 400;">https://www.youtube.com/watch?v=p4pLVN_hVsU</span>
+          <br>https://www.youtube.com/watch?v=DgqID9k83<span style="font-weight: 400;"></span>oQ<span style="font-weight: 400;">&nbsp;</span>
+        </span>&nbsp;<br>
+      </p>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-9346"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Copyright ©&nbsp;2023 Zhakanov MIras. All rights reserved<br>
+        </p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-design" target="_blank">
+        <span>Website Design</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.com/website-builder" target="_blank">
+        <span>Best Free Website Builder</span>
+      </a>. 
+    </section>
+  
+</body></html>
